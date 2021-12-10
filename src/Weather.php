@@ -1,6 +1,6 @@
 <?php
 
-namespace Fyl\Weather;
+namespace FylFeng\Weather;
 
 use Fyl\Weather\Exceptions\HttpException;
 use Fyl\Weather\Exceptions\InvalidArgumentException;

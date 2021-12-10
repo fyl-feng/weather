@@ -1,9 +1,9 @@
 <?php
-namespace Fyl\Weather\Tests;
+namespace FylFeng\Weather\Tests;
 
-use Fyl\Weather\Exceptions\HttpException;
-use Fyl\Weather\Exceptions\InvalidArgumentException;
-use Fyl\Weather\Weather;
+use FylFeng\Weather\Exceptions\HttpException;
+use FylFeng\Weather\Exceptions\InvalidArgumentException;
+use FylFeng\Weather\Weather;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Psr7\Response;

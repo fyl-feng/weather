@@ -1,6 +1,6 @@
 <?php
 
-namespace Fyl\Weather;
+namespace FylFeng\Weather;
 
 use Illuminate\Support\ServiceProvider;
 

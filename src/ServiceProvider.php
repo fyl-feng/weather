@@ -1,6 +1,6 @@
 <?php
 
-namespace Fyl\Weather;
+namespace FylFeng\Weather;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
