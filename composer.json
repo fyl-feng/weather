@@ -1,0 +1,36 @@
+{
+    "name": "fyl-feng/weather",
+    "description": "A weather SDK",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "FylFeng\\Weather\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FylFeng\\Weather\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fyl-feng",
+            "email": "2864670370@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "7.4.x",
+        "ext-json": "*",
+        "phpunit/phpunit": "9.5.x",
+        "mockery/mockery": "1.4.x",
+        "illuminate/support": "8.x-dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FylFeng\\Weather\\WeatherServiceProvider"
+            ]
+        }
+
+}
