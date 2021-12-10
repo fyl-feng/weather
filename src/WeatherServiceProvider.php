@@ -16,9 +16,10 @@ class WeatherServiceProvider extends ServiceProvider
     {
         // 单例绑定服务
 
-        $this->app->singleton('weather', function(){
+        $this->app->singleton(Weather::class, function(){
             return new Weather(config('services.weather.key'));
         });
+        $this->app->alias(Weather::class, 'weather');
     }
 
     /**
