@@ -21,10 +21,8 @@
     "minimum-stability": "dev",
     "require": {
         "guzzlehttp/guzzle": "7.4.x",
-        "ext-json": "*",
         "phpunit/phpunit": "9.5.x",
-        "mockery/mockery": "1.4.x",
-        "illuminate/support": "8.x-dev"
+        "mockery/mockery": "1.4.x"
     },
     "extra": {
         "laravel": {
